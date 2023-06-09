@@ -10,12 +10,12 @@ spec:
   template:
     metadata:
       labels:
-        app: dmeoservice
+        app: demoservice
     spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: saloni1814/kcdmumbai
+        image: saloni1814/kcdmumbai:sha-e8c0659
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
