@@ -15,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: saloni1814/kcdmumbai:sha-52f1e88
+        image: saloni1814/kcdmumbai:sha-64ec0e5
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
